@@ -123,14 +123,14 @@ li {
 }
 
 .listitem {
-    color: #F0F0F0;
+    color: #C0C0C0;
 }
 
 :hover.listitem {
-    color: white;
+    color: #D0D0D0;
 }
 a:visited {
-    color: #F0F0F0;
+    color: #C0C0C0;
 }
 
 .contact {
@@ -141,6 +141,7 @@ a:visited {
 .intro-page {
     display: flex;
     justify-content: center;
+    color: gray;
 }
 
 .my-img {
@@ -165,6 +166,7 @@ a:visited {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 p {
@@ -177,6 +179,7 @@ h1 {
     padding: 75px;
     padding-bottom: 30px;
     text-decoration: underline;
+    color: #696969;
 }
 
 .coursepage {
@@ -194,7 +197,7 @@ h2 {
     padding-bottom: 50px;
     font-size: 45px;
     text-decoration: underline;
-    color: #333333;
+    color: gray;
 }
 
 .topline {
