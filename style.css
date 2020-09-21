@@ -185,14 +185,21 @@ h2 {
     display: flex;
     flex-direction: column;
     height: 800px;
+    padding-bottom: 75px;
     background-color: pink;
     color:  #333333;
     border-top: solid white;
 }
 
 .contact-para {
-    display: flex;
-    align-content: center;
-    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    width: 99vw;
 }
 
+.mediaicons {
+    display: flex;
+    justify-content: center;
+    width: 99vw;
+
+}
