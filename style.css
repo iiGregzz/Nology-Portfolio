@@ -13,13 +13,16 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: hotpink;
+    background: #ff6f8f;
     border-radius: 5px;
 }
 
 body {
-    width: 100wv;
+    width: 100vw;
     font-size: 16px;
+    margin:0;
+    padding:0;
+    background-color:white;
 }
 
 .white {
@@ -31,11 +34,11 @@ body {
 }
 
 .pinkbackground {
-    background-color: pink;
+    background-color: #ff8ceb;
 }
 
-.blackbackground {
-    background-color: black;
+.darkbackground {
+    background-color: #140710;
 }
 
 .greytext {
@@ -186,9 +189,8 @@ h1 {
     display: flex;
     flex-direction: column;
     height: 800px;
-    background-color: pink;
+    background-color: white;
     color:  #333333;
-    border-top: solid white;
 }
 
 h2 {
@@ -197,7 +199,7 @@ h2 {
     padding-bottom: 50px;
     font-size: 45px;
     text-decoration: underline;
-    color: gray;
+    color: #696969;
 }
 
 .topline {
@@ -247,9 +249,8 @@ h2 {
     display: flex;
     flex-direction: column;
     height: 800px;
-    background-color: #333333;
-    color:  pink;
-    border-top: solid white;
+    background-color: white;
+    color:  gray;
 }
 
 .gamehead {
@@ -258,7 +259,7 @@ h2 {
     padding: 75px;
     font-size: 45px;
     text-decoration: underline;
-    color: pink;
+    color: #696969;
 }
 
 .gamecards {
@@ -279,15 +280,27 @@ h2 {
     flex-direction: column;
     height: 800px;
     padding-bottom: 75px;
-    background-color: pink;
+    background-color: #ff6f8f;
     color:  #333333;
-    border-top: solid white;
+}
+
+.sectionhead {
+    font-family: 'Pacifico';
+    text-decoration: none;
+    color: white;
+    text-shadow: 1.5px 1.5px #333333;
+    margin-bottom: 0px;
 }
 
 .contact-para {
     text-align: center;
     font-weight: bold;
     width: 99vw;
+    font-family: 'Pacifico';
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1.5px 1.5px #333333;
 }
 
 .mediaicons {
