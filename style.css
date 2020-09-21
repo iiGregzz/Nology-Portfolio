@@ -23,6 +23,11 @@ body {
     font-size: 16px;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 .pink {
     color: pink;
 }
@@ -133,4 +138,22 @@ h2 {
     height: 150px;
     width: 150px;
     border-radius: 15px;
+}
+
+.gamepage {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    background-color: #333333;
+    color:  pink;
+    border-top: solid white;
+}
+
+.gamehead {
+    text-align: center;
+    padding: 75px;
+    padding-bottom: 50px;
+    font-size: 45px;
+    text-decoration: underline;
+    color: pink;
 }
