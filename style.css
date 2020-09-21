@@ -169,7 +169,6 @@ a:visited {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 30px;
 }
 
 p {
@@ -212,6 +211,7 @@ h2 {
 .coursetext {
     width: 550px;
     height: 200px;
+    color: grey;
 }
 
 .nology {
@@ -267,7 +267,6 @@ h2 {
     justify-content: space-evenly;
     width: 99vw;
     padding-bottom: 75px;
-    padding-right: 25px;
 }
 
 .card-text {
@@ -297,10 +296,10 @@ h2 {
     font-weight: bold;
     width: 99vw;
     font-family: 'Pacifico';
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: none;
     color: white;
-    text-shadow: 1.5px 1.5px #333333;
+    text-shadow: 1px 1px #333333;
 }
 
 .mediaicons {
