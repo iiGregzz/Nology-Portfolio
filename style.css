@@ -6,13 +6,31 @@
 
 body {
     width: 100wv;
-    color: palevioletred;
     background-color: #333333;
     font-size: 16px;
 }
 
+
+
 .pink {
-    background-color: palevioletred;
+    color: pink;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+}
+
+:hover.listitem {
+    color: palevioletred;
+}
+
+.contact {
+    color: palevioletred;
+    font-weight: bold;
 }
 
 .intro-page {
@@ -34,4 +52,5 @@ h1 {
     text-align: center;
     padding: 75px;
     padding-bottom: 50px;
+    color: palevioletred;
 }
