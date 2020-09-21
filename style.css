@@ -25,8 +25,8 @@ body {
     background-color:white;
 }
 
-.white {
-    color: white;
+.grey {
+    color: grey;
 }
 
 .pink {
@@ -137,7 +137,7 @@ a:visited {
 }
 
 .contact {
-    color: #2DF4EE;
+    color: gray;
     font-weight: bold;
 }
 
