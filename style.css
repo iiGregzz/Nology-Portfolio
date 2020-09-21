@@ -1,5 +1,5 @@
 * {
-    font-family: sans-serif;
+    font-family: 'Signika';
     margin: 0;
     padding: 0;    
 }
@@ -19,8 +19,39 @@
 
 body {
     width: 100wv;
-    background-color: #333333;
     font-size: 16px;
+}
+
+.white {
+    color: white;
+}
+
+.pink {
+    color: pink;
+}
+
+.pinkbackground {
+    background-color: pink;
+}
+
+.blackbackground {
+    background-color: black;
+}
+
+.greytext {
+    color: #333333;
+}
+
+.greyborder {
+    border: #333333;
+}
+
+.textshadow {
+    text-shadow: 3px 3px #333333;
+}
+
+.textshadow-sub {
+    text-shadow: 1.5px 1.5px #333333;
 }
 
 .landingtitle {
@@ -82,25 +113,6 @@ main {
     flex-direction: column;
 }
 
-.pink {
-    color: pink;
-}
-
-.pinkbackground {
-    background-color: pink;
-}
-
-.blackbackground {
-    background-color: black;
-}
-
-.greytext {
-    color: #333333;
-}
-
-.greyborder {
-    border: #333333;
-}
 
 ul {
     list-style-type: none;
@@ -110,24 +122,47 @@ li {
     padding: 10px;
 }
 
+.listitem {
+    color: #F0F0F0;
+}
+
 :hover.listitem {
-    color: palevioletred;
+    color: white;
 }
 a:visited {
-    color: #6c757d;
+    color: #F0F0F0;
 }
 
 .contact {
-    color: palevioletred;
+    color: #2DF4EE;
     font-weight: bold;
 }
 
 .intro-page {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.my-img {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding-bottom: 30px;
+}
+
+.introimg {
+    border-radius: 50%;
+}
+
+.intro-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
 }
 
 .intro-para {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -140,9 +175,8 @@ p {
 h1 {
     text-align: center;
     padding: 75px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     text-decoration: underline;
-    color: pink;
 }
 
 .coursepage {
