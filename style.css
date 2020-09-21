@@ -6,9 +6,13 @@
 
 body {
     width: 100wv;
-    color: #333333;
-    background-color: lightgray;
+    color: palevioletred;
+    background-color: #333333;
     font-size: 16px;
+}
+
+.pink {
+    background-color: palevioletred;
 }
 
 .intro-page {
