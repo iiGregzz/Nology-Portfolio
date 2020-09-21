@@ -4,6 +4,19 @@
     padding: 0;    
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: hotpink;
+    border-radius: 5px;
+}
+
 body {
     width: 100wv;
     background-color: #333333;
@@ -28,6 +41,9 @@ li {
 
 :hover.listitem {
     color: palevioletred;
+}
+a:visited {
+    color: #6c757d;
 }
 
 .contact {
