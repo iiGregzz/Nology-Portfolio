@@ -63,17 +63,20 @@ a:visited {
 
 p {
     text-align: justify;
-    width: 800px;
+    width: 400px;
 }
 
 h1 {
     text-align: center;
     padding: 75px;
     padding-bottom: 50px;
+    text-decoration: underline;
     color: palevioletred;
 }
 
 .coursepage {
+    display: flex;
+    flex-direction: column;
     height: 800px;
     background-color: pink;
     color:  #333333;
@@ -85,5 +88,49 @@ h2 {
     padding: 75px;
     padding-bottom: 50px;
     font-size: 45px;
+    text-decoration: underline;
     color: #333333;
+}
+
+.topline {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+
+.coursetext {
+    width: 550px;
+    height: 200px;
+}
+
+.nology {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.midline {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.codelogo {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.bottomline {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.agilelogo {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
 }
