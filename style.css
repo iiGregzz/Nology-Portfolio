@@ -163,8 +163,8 @@ h2 {
 
 .gamehead {
     text-align: center;
-    padding: 75px;
     padding-bottom: 50px;
+    padding: 75px;
     font-size: 45px;
     text-decoration: underline;
     color: pink;
@@ -173,7 +173,9 @@ h2 {
 .gamecards {
     display: flex;
     justify-content: space-evenly;
+    width: 99vw;
     padding-bottom: 75px;
+    padding-right: 190px;
 }
 
 .card-text {
@@ -201,5 +203,4 @@ h2 {
     display: flex;
     justify-content: center;
     width: 99vw;
-
 }
