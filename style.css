@@ -278,7 +278,7 @@ h2 {
     display: flex;
     flex-direction: column;
     height: 800px;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
     background-color: #ff6f8f;
     color:  #333333;
 }
