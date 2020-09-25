@@ -29,6 +29,10 @@ body {
     color: grey;
 }
 
+.darkgrey {
+    color: #80818f;
+}
+
 .pink {
     color: pink;
 }
@@ -39,6 +43,10 @@ body {
 
 .darkbackground {
     background-color: #140710;
+}
+
+.trellobackground {
+    background-color: #dddee0;
 }
 
 .greytext {
@@ -269,9 +277,17 @@ h2 {
     padding-bottom: 75px;
 }
 
+.trello {
+    height: 286px;
+}
+
 .card-text {
     text-align: justify;
     width: 200px;
+}
+
+:hover.btn {
+    background-color: lightpink;
 }
 
 .contactpage {
