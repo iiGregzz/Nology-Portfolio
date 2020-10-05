@@ -25,6 +25,11 @@ body {
     background-color:white;
 }
 
+.white {
+    border-color: white;
+    color: white;
+}
+
 .grey {
     color: grey;
 }
@@ -108,14 +113,6 @@ body {
     display: flex;
     align-content: center;
     justify-content:center;
-
-}
-
-.landingpage {
-    height: 200vh;
-    width: 100vw;
-    background-image: url('https://media.giphy.com/media/l41Ygr7sR5limRkek/source.gif');
-    background-size: cover;
 
 }
 
